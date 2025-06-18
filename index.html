@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layoutize Confecção</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">
+                <img src="logo.svg" alt="slogo" style="height: 50px;">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Fazer Orçamento</a></li>
+            </ul>
+            <button id="theme-switcher">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="h1-image-wrapper">
+                    <img src="hoodie.svg" alt="Hoodie" class="hoodie-img">
+                    <h1>A Confecção definitiva para seu estilo acadêmico.</h1>
+                </div>
+                <p>Conheça nossos produtos e personalizações disponíveis.</p>
+                <a href="#sobre" class="cta-button">Explore Agora</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container content-section">
+            <h2>Conheça nossas personalizações</h2>
+            <p>
+                A Layoutize Confecção aconteceu para facilitar o seu acesso a uniformes personalizados e com alta qualidade
+                que representem a sua identidade em sua jornada de formação. 
+            </p>
+            <section id="sobre" class="container content-section">
+    <div class="about-container">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="/image_01.png" alt="image_01"></div>
+                    <div class="carousel-slide"><img src="/image_02.png" alt="image_02"></div>
+                    <div class="carousel-slide"><img src="/image_03.png" alt="image_03"></div>
+                    <div class="carousel-slide"><img src="/image_03.png" alt="image_03"></div>
+                </div>
+                <button class="carousel-button prev">&larr;</button>
+                <button class="carousel-button next">&rarr;</button>
+            </div>
+        </div>
+
+    
+    </div>
+</section>
+            
+
+        </section>
+
+        <section id="contato" class="container content-section">
+            <h2>Fale Conosco</h2>
+            <p>Tem alguma dúvida, sugestão ou quer ser nosso parceiro? Preencha o formulário abaixo!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Layoutize Confecção. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
